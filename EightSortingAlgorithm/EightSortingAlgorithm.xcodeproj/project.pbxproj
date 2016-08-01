@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F306EA5C1D4ED90800411C14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F306EA5B1D4ED90800411C14 /* main.m */; };
+		F306EA5F1D4ED90800411C14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F306EA5E1D4ED90800411C14 /* AppDelegate.m */; };
+		F306EA621D4ED90800411C14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F306EA611D4ED90800411C14 /* ViewController.m */; };
+		F306EA651D4ED90800411C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F306EA631D4ED90800411C14 /* Main.storyboard */; };
+		F306EA671D4ED90800411C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F306EA661D4ED90800411C14 /* Assets.xcassets */; };
+		F306EA6A1D4ED90800411C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F306EA681D4ED90800411C14 /* LaunchScreen.storyboard */; };
+		F306EA751D4ED90900411C14 /* EightSortingAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F306EA741D4ED90900411C14 /* EightSortingAlgorithmTests.m */; };
+		F306EA801D4ED90900411C14 /* EightSortingAlgorithmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F306EA7F1D4ED90900411C14 /* EightSortingAlgorithmUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F306EA711D4ED90900411C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F306EA4F1D4ED90800411C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F306EA561D4ED90800411C14;
+			remoteInfo = EightSortingAlgorithm;
+		};
+		F306EA7C1D4ED90900411C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F306EA4F1D4ED90800411C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F306EA561D4ED90800411C14;
+			remoteInfo = EightSortingAlgorithm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F306EA571D4ED90800411C14 /* EightSortingAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightSortingAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F306EA5B1D4ED90800411C14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F306EA5D1D4ED90800411C14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F306EA5E1D4ED90800411C14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F306EA601D4ED90800411C14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F306EA611D4ED90800411C14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F306EA641D4ED90800411C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F306EA661D4ED90800411C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F306EA691D4ED90800411C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F306EA6B1D4ED90800411C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F306EA701D4ED90900411C14 /* EightSortingAlgorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EightSortingAlgorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F306EA741D4ED90900411C14 /* EightSortingAlgorithmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightSortingAlgorithmTests.m; sourceTree = "<group>"; };
+		F306EA761D4ED90900411C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F306EA7B1D4ED90900411C14 /* EightSortingAlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EightSortingAlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F306EA7F1D4ED90900411C14 /* EightSortingAlgorithmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EightSortingAlgorithmUITests.m; sourceTree = "<group>"; };
+		F306EA811D4ED90900411C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F306EA541D4ED90800411C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA6D1D4ED90900411C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA781D4ED90900411C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F306EA4E1D4ED90800411C14 = {
+			isa = PBXGroup;
+			children = (
+				F306EA591D4ED90800411C14 /* EightSortingAlgorithm */,
+				F306EA731D4ED90900411C14 /* EightSortingAlgorithmTests */,
+				F306EA7E1D4ED90900411C14 /* EightSortingAlgorithmUITests */,
+				F306EA581D4ED90800411C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F306EA581D4ED90800411C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F306EA571D4ED90800411C14 /* EightSortingAlgorithm.app */,
+				F306EA701D4ED90900411C14 /* EightSortingAlgorithmTests.xctest */,
+				F306EA7B1D4ED90900411C14 /* EightSortingAlgorithmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F306EA591D4ED90800411C14 /* EightSortingAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F306EA5D1D4ED90800411C14 /* AppDelegate.h */,
+				F306EA5E1D4ED90800411C14 /* AppDelegate.m */,
+				F306EA601D4ED90800411C14 /* ViewController.h */,
+				F306EA611D4ED90800411C14 /* ViewController.m */,
+				F306EA631D4ED90800411C14 /* Main.storyboard */,
+				F306EA661D4ED90800411C14 /* Assets.xcassets */,
+				F306EA681D4ED90800411C14 /* LaunchScreen.storyboard */,
+				F306EA6B1D4ED90800411C14 /* Info.plist */,
+				F306EA5A1D4ED90800411C14 /* Supporting Files */,
+			);
+			path = EightSortingAlgorithm;
+			sourceTree = "<group>";
+		};
+		F306EA5A1D4ED90800411C14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F306EA5B1D4ED90800411C14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F306EA731D4ED90900411C14 /* EightSortingAlgorithmTests */ = {
+			isa = PBXGroup;
+			children = (
+				F306EA741D4ED90900411C14 /* EightSortingAlgorithmTests.m */,
+				F306EA761D4ED90900411C14 /* Info.plist */,
+			);
+			path = EightSortingAlgorithmTests;
+			sourceTree = "<group>";
+		};
+		F306EA7E1D4ED90900411C14 /* EightSortingAlgorithmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F306EA7F1D4ED90900411C14 /* EightSortingAlgorithmUITests.m */,
+				F306EA811D4ED90900411C14 /* Info.plist */,
+			);
+			path = EightSortingAlgorithmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F306EA561D4ED90800411C14 /* EightSortingAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F306EA841D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithm" */;
+			buildPhases = (
+				F306EA531D4ED90800411C14 /* Sources */,
+				F306EA541D4ED90800411C14 /* Frameworks */,
+				F306EA551D4ED90800411C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightSortingAlgorithm;
+			productName = EightSortingAlgorithm;
+			productReference = F306EA571D4ED90800411C14 /* EightSortingAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F306EA6F1D4ED90900411C14 /* EightSortingAlgorithmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F306EA871D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithmTests" */;
+			buildPhases = (
+				F306EA6C1D4ED90900411C14 /* Sources */,
+				F306EA6D1D4ED90900411C14 /* Frameworks */,
+				F306EA6E1D4ED90900411C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F306EA721D4ED90900411C14 /* PBXTargetDependency */,
+			);
+			name = EightSortingAlgorithmTests;
+			productName = EightSortingAlgorithmTests;
+			productReference = F306EA701D4ED90900411C14 /* EightSortingAlgorithmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F306EA7A1D4ED90900411C14 /* EightSortingAlgorithmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F306EA8A1D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithmUITests" */;
+			buildPhases = (
+				F306EA771D4ED90900411C14 /* Sources */,
+				F306EA781D4ED90900411C14 /* Frameworks */,
+				F306EA791D4ED90900411C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F306EA7D1D4ED90900411C14 /* PBXTargetDependency */,
+			);
+			name = EightSortingAlgorithmUITests;
+			productName = EightSortingAlgorithmUITests;
+			productReference = F306EA7B1D4ED90900411C14 /* EightSortingAlgorithmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F306EA4F1D4ED90800411C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = silverk;
+				TargetAttributes = {
+					F306EA561D4ED90800411C14 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F306EA6F1D4ED90900411C14 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F306EA561D4ED90800411C14;
+					};
+					F306EA7A1D4ED90900411C14 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F306EA561D4ED90800411C14;
+					};
+				};
+			};
+			buildConfigurationList = F306EA521D4ED90800411C14 /* Build configuration list for PBXProject "EightSortingAlgorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F306EA4E1D4ED90800411C14;
+			productRefGroup = F306EA581D4ED90800411C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F306EA561D4ED90800411C14 /* EightSortingAlgorithm */,
+				F306EA6F1D4ED90900411C14 /* EightSortingAlgorithmTests */,
+				F306EA7A1D4ED90900411C14 /* EightSortingAlgorithmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F306EA551D4ED90800411C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306EA6A1D4ED90800411C14 /* LaunchScreen.storyboard in Resources */,
+				F306EA671D4ED90800411C14 /* Assets.xcassets in Resources */,
+				F306EA651D4ED90800411C14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA6E1D4ED90900411C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA791D4ED90900411C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F306EA531D4ED90800411C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306EA621D4ED90800411C14 /* ViewController.m in Sources */,
+				F306EA5F1D4ED90800411C14 /* AppDelegate.m in Sources */,
+				F306EA5C1D4ED90800411C14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA6C1D4ED90900411C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306EA751D4ED90900411C14 /* EightSortingAlgorithmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306EA771D4ED90900411C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F306EA801D4ED90900411C14 /* EightSortingAlgorithmUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F306EA721D4ED90900411C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F306EA561D4ED90800411C14 /* EightSortingAlgorithm */;
+			targetProxy = F306EA711D4ED90900411C14 /* PBXContainerItemProxy */;
+		};
+		F306EA7D1D4ED90900411C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F306EA561D4ED90800411C14 /* EightSortingAlgorithm */;
+			targetProxy = F306EA7C1D4ED90900411C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F306EA631D4ED90800411C14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F306EA641D4ED90800411C14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F306EA681D4ED90800411C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F306EA691D4ED90800411C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F306EA821D4ED90900411C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F306EA831D4ED90900411C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F306EA851D4ED90900411C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EightSortingAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F306EA861D4ED90900411C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EightSortingAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F306EA881D4ED90900411C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EightSortingAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightSortingAlgorithm.app/EightSortingAlgorithm";
+			};
+			name = Debug;
+		};
+		F306EA891D4ED90900411C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EightSortingAlgorithmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightSortingAlgorithm.app/EightSortingAlgorithm";
+			};
+			name = Release;
+		};
+		F306EA8B1D4ED90900411C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EightSortingAlgorithmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EightSortingAlgorithm;
+			};
+			name = Debug;
+		};
+		F306EA8C1D4ED90900411C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EightSortingAlgorithmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silverk.EightSortingAlgorithmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EightSortingAlgorithm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F306EA521D4ED90800411C14 /* Build configuration list for PBXProject "EightSortingAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F306EA821D4ED90900411C14 /* Debug */,
+				F306EA831D4ED90900411C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F306EA841D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F306EA851D4ED90900411C14 /* Debug */,
+				F306EA861D4ED90900411C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F306EA871D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F306EA881D4ED90900411C14 /* Debug */,
+				F306EA891D4ED90900411C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F306EA8A1D4ED90900411C14 /* Build configuration list for PBXNativeTarget "EightSortingAlgorithmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F306EA8B1D4ED90900411C14 /* Debug */,
+				F306EA8C1D4ED90900411C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F306EA4F1D4ED90800411C14 /* Project object */;
+}
