@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#define Max 20
-#define Base 10
 
 @interface ViewController ()
 
@@ -30,7 +28,8 @@
    // NSLog(@"4 快速排序 %@",[self quickSortArray:arr1 Start:0 End:arr1.count-1]);
    // NSLog(@"5 直接选择排序 %@",[self selectSortArray:arr1]);
     //NSLog(@"6 堆排序 %@",[self heapSortArray:arr1]);
-    NSLog(@"6 堆排序 %@",[self mergeSortArray:arr1]);
+    //NSLog(@"7 堆排序 %@",[self mergeSortArray:arr1]);
+    NSLog(@"8 基数排序 %@",[self radixSortArray:arr1]);
 
     
 }
@@ -261,6 +260,50 @@
  基数排序（radix sort）属于“分配式排序”（distribution sort），又称“桶子法”（bucket sort）或bin sort，顾名思义，它是透过键值的部份资讯，将要排序的元素分配至某些“桶”中，藉以达到排序的作用，基数排序法是属于稳定性的排序，其时间复杂度为O (nlog(r)m)，其中r为所采取的基数，而m为堆数，在某些时候，基数排序法的效率高于其它的稳定性排序法。
  */
 
+
+
+        
+
+
+- (NSMutableArray *)radixSortArray:(NSMutableArray <NSNumber *>*)array  {
+    
+    NSInteger i;
+    NSInteger b[20];
+    NSInteger m= [array[0]integerValue];
+    NSInteger exp = 1;
+    NSInteger n= array.count;
+    
+    for (i=1; i<n; i++) {
+        if ([array[i]integerValue] > m) {
+            m = [array[i]integerValue];
+        }
+    }
+    
+    while (m / exp > 0) {
+        NSInteger bucket[10] = { 0 };
+        
+        for (i = 0; i < n; i++) {
+            bucket[([array[i]integerValue] / exp) % 10]++;
+        }
+        
+        for (i = 1; i < 10; i++) {
+            bucket[i]+= bucket[i - 1];
+        }
+        
+        for (i = n - 1; i >= 0; i--) {
+            b[--bucket[([array[i]integerValue] / exp) % 10]] = [array[i]integerValue];
+        }
+        
+        for (i = 0; i < n; i++) {
+            //array[i] = b[i];
+            [array setObject:[NSNumber numberWithInteger:b[i]] atIndexedSubscript:i];
+        }
+        
+        exp *= 10;
+    }
+    
+    return array;
+}
 
 
 
